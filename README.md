@@ -1,32 +1,56 @@
 # 🏗️ Architect’s Playground
 
-> **Build. Break. Learn. Repeat.**  
-> A collaborative playground to master modern architecture patterns — together.
+█████╗ ██████╗ ██╗ ██╗ ██████╗ ███████╗███╗ ██╗
+██╔══██╗██╔══██╗██║ ██║██╔════╝ ██╔════╝████╗ ██║
+███████║██████╔╝██║ ██║██║ ███╗█████╗ ██╔██╗ ██║
+██╔══██║██╔══██╗██║ ██║██║ ██║██╔══╝ ██║╚██╗██║
+██║ ██║██║ ██║╚██████╔╝╚██████╔╝███████╗██║ ╚████║
+╚═╝ ╚═╝╚═╝ ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝ ╚═══╝
+
+ARCHITECT’S PLAYGROUND
+Build. Break. Learn. Repeat. — Together.
+
+
+> 🧪 A collaborative playground to master modern architecture, observability, security, testing & resilience patterns — one PR at a time.
 
 ---
 
-## 🎯 هدف پروژه
+## 🌟 چرا این پروژه؟
 
-این پروژه یک **زمین بازی معماری نرم‌افزار** هست که قراره با همکاری چند نفر، الگوها و ابزارهای مدرن رو پیاده‌سازی و تمرین کنیم — بدون استرس، با فضای یادگیری و آزمایش.
+هدف ما **ساخت یک محیط امن برای شکستن، یادگیری و رشد جمعی** است.  
+اینجا جاییه که:
 
-هدف نهایی؟  
-✅ یادگیری عمیق  
-✅ همکاری تیمی  
-✅ ساخت یه پروژه Real-World-Like با بهترین پراکتیس‌ها
+- هر PR یه فرصت برای یادگیریه.
+- هر خطا یه درس جدیده.
+- هر لاگ، هر تست، هر Retry — یه قدم به سمت معماری حرفه‌ای.
 
 ---
 
 ## 🧩 تکنولوژی‌ها و الگوهای مورد استفاده
 
-- ✅ **CQRS & MediatR** — جداسازی دستورات و پرس‌وجوها
-- ✅ **Event-Driven Architecture** با **RabbitMQ**
-- ✅ **gRPC** برای ارتباط بین سرویس‌ها
-- ✅ **Redis** برای کش و وضعیت‌های موقت
-- ✅ **Docker & Docker Compose** — اجرا و استقرار آسان
-- ✅ **Prometheus + Grafana** — نظارت و داشبورد
-- ✅ **Clean Architecture / Onion Architecture** — ساختار منظم
-- ✅ **API Gateway (اختیاری)** — برای آینده!
-- ✅ **Unit & Integration Tests** — یادگیری تست‌نویسی همراه با کدنویسی
+![CQRS](https://img.shields.io/badge/CQRS-Implemented-blue)
+![MediatR](https://img.shields.io/badge/MediatR-Used-green)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Event--Driven-orange)
+![gRPC](https://img.shields.io/badge/gRPC-Inter--Service-red)
+![Redis](https://img.shields.io/badge/Redis-Caching-purple)
+![Polly](https://img.shields.io/badge/Polly-Resilience-important)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Observability-blueviolet)
+![Prometheus+Grafana](https://img.shields.io/badge/Observability-Prometheus%20%2B%20Grafana-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Containerized-teal)
+![ErrorOr](https://img.shields.io/badge/ErrorOr-Explicit%20Errors-success)
+![Team Learning](https://img.shields.io/badge/Team-Learning%20Together-success)
+
+✅ **الگوهای طراحی**: CQRS, Mediator, Factory, Strategy, Option, Pipeline  
+✅ **امنیت**: JWT, OAuth2, IdentityServer, Policy-Based Auth  
+✅ **تاب‌آوری**: Polly (Retry, Circuit Breaker, Timeout, Fallback)  
+✅ **اعتبارسنجی**: FluentValidation + Pipeline در MediatR  
+✅ **مدیریت خطا**: Exception Handling Middleware + Problem Details + ErrorOr  
+✅ **لاگ‌گیری**: Structured Logging با Serilog + TraceId از OpenTelemetry  
+✅ **تست**: Unit Test, Integration Test, TDD, Mocking  
+✅ **Observability**: OpenTelemetry (Trace, Metric, Log), Prometheus, Grafana, Alertmanager  
+✅ **زیرساخت**: Docker, Docker Compose, Health Checks
+
+> 📚 **مستندات کامل فنی**: [`docs/TECH_STACK.md`](./docs/TECH_STACK.md)
 
 ---
 
@@ -38,7 +62,7 @@
 - [@friend1](https://github.com/friend1) — نقش: ...
 - [@friend2](https://github.com/friend2) — نقش: ...
 
-> هر کس می‌تونه یه سرویس، یه فیچر، یا حتی یه تست رو بگیره و پیاده‌سازی کنه.  
+> 💡 **هر کس می‌تونه یه سرویس، یه فیچر، یا حتی یه تست رو بگیره و پیاده‌سازی کنه.**  
 > **اصلاحاً: هر کس می‌تونه یه چیزی رو Build کنه، بعد یه نفر دیگه Break کنه، همه Learn کنن، و بعد Repeat!**
 
 ---
